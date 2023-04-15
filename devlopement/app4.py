@@ -17,7 +17,7 @@ url = input('https://sweet-beds-cheer-35-247-178-248.loca.lt/#')
 # Replace this with the path to your Chrome driver executable
 driver_path = "/path/to/chromedriver"
 
-url
+#url
 # Initialize the Chrome driver
 driver = webdriver.Chrome(driver_path)
 
