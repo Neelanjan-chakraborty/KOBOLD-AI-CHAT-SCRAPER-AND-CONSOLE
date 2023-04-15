@@ -95,7 +95,7 @@ while True:
     
     # check if bot response has already been said before
     if bot_response in previous_messages:
-        print("Bot: I'm sorry, I don't want to repeat myself.")
+        print("Bot: I'm sorry, This massage has been repeated I don't want to repeat myself.")
         continue
     
     # add bot response to previous messages
