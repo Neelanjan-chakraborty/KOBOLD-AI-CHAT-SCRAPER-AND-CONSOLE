@@ -13,7 +13,8 @@ import sys
 #sys.stderr = open(os.devnull, 'w')
 
 # Replace this with the URL of the website you want to scrape
-url='https://mean-ways-grow-35-247-178-248.loca.lt/#'
+
+url=input('Enter your url , it should look like: https://mean-ways-grow-35-247-178-248.loca.lt/#')
 # Replace this with the path to your Chrome driver executable
 driver_path = "/path/to/chromedriver"
 
