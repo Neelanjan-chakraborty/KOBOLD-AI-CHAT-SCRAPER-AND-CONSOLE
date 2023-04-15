@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bot Chat</title>
+</head>
+<body>
+    <h1>Bot Chat</h1>
+    <form method="post">
+        <input type="text" name="message">
+        <input type="submit" value="Send">
+    </form>
+    {% if response %}
+        <p>Bot: {{ response }}</p>
+    {% endif %}
+</body>
+</html>
